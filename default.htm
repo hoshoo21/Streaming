@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+  XHTML-wrapper code for "FLV-Scrubber for lighttpd V.1.0" by Fabian Topfstedt
+  
+  * Paste in the absolute link (Internet Explorer won't work with relative 
+    ones) to your Flash Video where "http://www.yoursite.com/video.flv" is 
+    written here
+  * Set "bufferTime=X" (for X seconds) or remove the parameter (fallback to 3s)
+  * Set autoStart=true if you want to play the movie immediately
+-->
+
+  <head>
+    <title>
+      FLV streaming
+    </title>
+  </head>
+
+  <body>
+
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+      codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+      width="336" 
+      height="297" 
+      bgcolor="#FFFFFF">
+      
+      <param name="movie"
+        value="scrubber.swf?file=http://localhost/flvstreaming/golfers.flv&bufferTime=3&autoStart=false" />
+      
+      <param name="quality" 
+        value="high" />
+
+      <embed src="scrubber.swf?file=http://localhost/flvstreaming/golfers.flv&bufferTime=3&autoStart=false"
+        quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer"
+        type="application/x-shockwave-flash" width="336" height="297" bgcolor="#FFFFFF" />
+        
+    </object>
+  </body>
+</html>
+
