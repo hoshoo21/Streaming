@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost::5550/FLVStreaming/", "http://localhost:5500/FLVStreaming", "{2AD7FA4E-6B24-4064-82CF-75D44ECEF86A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/FLVStreaming"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Works\FLVStreaming\wwwroot\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FLVStreaming\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FLVStreaming"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Works\FLVStreaming\wwwroot\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FLVStreaming\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Works\FLVStreaming\wwwroot\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD7FA4E-6B24-4064-82CF-75D44ECEF86A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2AD7FA4E-6B24-4064-82CF-75D44ECEF86A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
